@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SubsectionSeekBar">
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="dots" format="integer" />
+        <attr name="thumb" format="reference" />
+        <attr name="unProgressLineColor" format="color" />
+        <attr name="unProgressCircleColor" format="color" />
+        <attr name="isDisplay" format="boolean" />
+    </declare-styleable>
+</resources>
