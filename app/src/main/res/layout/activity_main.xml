@@ -9,7 +9,7 @@
         android:id="@+id/sbSubsection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:dots="4"
+        app:dots="5"
         app:isDisplay="false"
         app:max="100"
         app:progress="0"

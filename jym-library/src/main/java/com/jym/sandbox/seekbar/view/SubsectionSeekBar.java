@@ -62,8 +62,8 @@ public class SubsectionSeekBar extends LinearLayout {
         if (dots > max) {
             throw new IllegalArgumentException("SubsectionSeekBar dots must be less than max");
         }
-        if (max % dots != 0) {
-            throw new IllegalArgumentException("SubsectionSeekBar max must be divisible by dots");
+        if (max % (dots - 1) != 0) {
+            throw new IllegalArgumentException("SubsectionSeekBar max must be divisible by (dots-1)");
         }
         initView();
     }
